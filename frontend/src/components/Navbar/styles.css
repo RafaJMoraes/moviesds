@@ -1,0 +1,29 @@
+header {
+    background-color: var(--color-primary);
+    height: 60px;
+    display: flex;
+    align-items: center;
+}
+
+.moviesds-nav-content {
+    display: flex;
+    align-items: center;
+    color: #fff;
+    justify-content: space-between;
+}
+.moviesds-nav-content h1 {
+    margin: 0;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.moviesds-contact-name {
+    display: flex;
+    align-items: center;
+}
+
+.moviesds-contact-link {
+    margin: 0 0 0 10px;
+    font-size: 12px;
+    color: #fff;
+}
