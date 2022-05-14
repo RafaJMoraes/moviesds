@@ -14,7 +14,7 @@ public class User {
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Long id;
 	private String email;
-	User(){}
+	public User(){}
 	
 	public Long getId() {
 		return id;
@@ -37,7 +37,7 @@ public class User {
 
 
 	public User(Long id, String email) {
-		super();
+		
 		this.id = id;
 		this.email = email;
 	}
