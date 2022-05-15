@@ -24,7 +24,7 @@ function FormCard({movieId} : Props) {
           });
       }, [movieId] );
     
-
+ 
   
 
  
