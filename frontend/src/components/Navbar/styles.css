@@ -3,6 +3,8 @@ header {
     height: 60px;
     display: flex;
     align-items: center;
+    background: rgb(77, 65, 192);
+    background: linear-gradient(180deg, rgb(77, 65, 192, 1) 0%, rgb(77,65,192, 0.75) 100%);
 }
 
 .moviesds-nav-content {
