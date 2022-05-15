@@ -29,15 +29,17 @@ function Listing() {
         setPage(data);
    
       });
-  }, [
-    pageNumber
-  ]);
+  }, [pageNumber]);  //observa o pageNumber, sempre que tiver alteração chama novamente o useEffect
+
+  const handlePageChange = (newPageNumber: number) => {
+    setPageNumber(newPageNumber);
+  }
 
  
 
   return (
     <>
-      <Pagination />
+      <Pagination page={page} onChanged={handlePageChange} />
       <div className="container">
         <div className="row">
           {page.content.map(movie => (
